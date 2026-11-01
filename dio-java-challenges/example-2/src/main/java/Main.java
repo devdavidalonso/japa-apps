@@ -20,7 +20,7 @@ public class Main {
     /**
      * Checks if the provided code strictly matches the expected code.
      */
-    private static boolean isCodeValid(String informed, String expected) {
+    static boolean isCodeValid(String informed, String expected) {
         if (informed == null || expected == null) {
             return false;
         }

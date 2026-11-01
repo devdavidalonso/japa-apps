@@ -6,21 +6,19 @@ public class Main {
 
         String operacao = scanner.nextLine();
 
-        // Validation using switch statement
-        boolean operacaoValida;
+        System.out.println(isOperationValid(operacao) ? "VALID" : "INVALID");
+
+        scanner.close();
+    }
+
+    static boolean isOperationValid(String operacao) {
         switch (operacao) {
             case "DEPOSITO":
             case "SAQUE":
             case "TRANSFERENCIA":
-                operacaoValida = true;
-                break;
+                return true;
             default:
-                operacaoValida = false;
-                break;
+                return false;
         }
-
-        System.out.println(operacaoValida ? "VALID" : "INVALID");
-
-        scanner.close();
     }
 }

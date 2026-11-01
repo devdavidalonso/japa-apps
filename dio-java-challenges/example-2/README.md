@@ -20,5 +20,9 @@ This program verifies whether an access code entered by an operator matches the 
 
 ## Technical Details
 * Developed in Java following Clean Code guidelines (Single Responsibility Principle).
-* Encapsulates logic inside a private helper method (`isCodeValid`).
+* Encapsulates logic inside a helper method (`isCodeValid`).
 * Handles string comparison safely using `String.equals()` with null-safety checks.
+* Includes JUnit 5 unit tests for exact, case-sensitive code comparison.
+
+## Running the Tests
+Run `mvn test` from this directory.

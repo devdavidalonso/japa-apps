@@ -22,3 +22,7 @@ The validation is case-sensitive and requires an exact match.
 * Developed in Java.
 * Uses `java.util.Scanner` for standard input reading.
 * Implements control flow logic via `switch-case` to validate exact String values.
+* Includes JUnit 5 unit tests for the supported operations and invalid inputs.
+
+## Running the Tests
+Run `mvn test` from this directory.

@@ -1,0 +1,20 @@
+# Compilados
+*.class
+*.jar
+*.war
+
+# Diretórios de Build
+target/
+build/
+
+# Configurações de IDEs (VS Code, Eclipse, IntelliJ)
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+.vscode/
+
+# Logs e ficheiros do SO
+*.log
+.DS_Store
